@@ -1,0 +1,40 @@
+.spreadsheet-app {
+    font-family: Arial, sans-serif;
+  }
+  
+  .table-container {
+    overflow: auto;
+    max-width: 100%;
+    max-height: 70vh;
+    border: 1px solid #ddd;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 80px; /* Increase cell width for larger grids */
+    height: 30px;
+  }
+  
+  th {
+    background-color: #f4f4f4;
+  }
+  
+  td {
+    cursor: pointer;
+  }
+  
+  td[draggable="true"] {
+    cursor: grab;
+  }
+  
+  td:focus {
+    outline: 2px solid #007bff;
+  }
+  
